@@ -1,0 +1,16 @@
+.DS_Store
+**/node_modules/
+
+# 本地构建与检查缓存
+.build/
+.codex-build/
+.codex-finalizer/
+.ppt-build/
+.chart-data-*/
+spreadsheet-build/previews/
+*.inspect.ndjson
+
+# 编辑器和临时文件
+*.swp
+*.tmp
+~$*
